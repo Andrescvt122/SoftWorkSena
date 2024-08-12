@@ -1,0 +1,98 @@
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#nav{
+    padding:20px;
+    background-color: none;
+    word-spacing: 20px;
+    border-radius: 10px;
+    font-size: 20px;;
+    overflow:auto;
+}
+#nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-right: 10px;
+    float:right;
+    padding-left:10px;
+    padding-top:10px;
+    padding-right: 50px;;
+}
+#nav span{
+    color:rgb(0, 0, 0);
+    transition: color 0.3s;
+    float:left;
+    padding-left:10px;
+    padding-top: 10px;
+}
+#nav span:hover{
+    color: gray;
+}
+#nav a:hover{
+    color:gray;
+}
+#nav img{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.presentacion{
+    width:50%;
+    text-align: center;
+    padding-left: 25%;
+}
+.presentacion h1{
+    color:rgb(0, 0, 0);
+    font-size: 40px;
+}
+.presentacion p{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+#img-index{
+    width: 700px;
+    height: 500px;
+    padding-left:30%;
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+    padding:50px;
+    font-weight: bold;
+}
+.conteiner{
+    height: 100%;
+    width: 100%;
+}
+.servicio1, .servicio2, .servicio3{
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: rgb(145, 143, 143);
+    width: 25%;
+    height: 25%;
+    float:left;
+    margin-left:100px;
+    margin-right:50px;
+}
+.servicio1 h2, .servicio2 h2, .servicio3 h2{
+    font-size: 30px;
+    text-align: center;
+    padding:10px;
+    padding-bottom: 40px;
+}
+.servicio1 p, .servicio2 p, .servicio3 p{
+    padding-left:20px;
+}
+
+.botones{
+    padding-top:20%;
+    text-align: center;
+}
+.botones button{
+    padding:10px;
+    margin-right:60px;
+    margin-left:60px;
+}
